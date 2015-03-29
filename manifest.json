@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+
+    "name": "Mootionary",
+    "description": "Let me do the image search for ya",
+    "version": "1.0",
+
+    "permissions": [
+        "tabs", "contextMenus", "http://*/*", "https://*/*"
+    ],
+
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+
+    "background": {
+        "scripts": ["contentScript.js"]
+    }
+}
